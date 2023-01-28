@@ -27,3 +27,22 @@ html {
   font-size: 10rem;
   flex-flow: column;
 }
+
+.navbar{
+  position: fixed;
+  width: 100%;
+  height: 20vh;
+  background-color: rgb(52, 114, 245);
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+ul a{
+  color: #fff;
+  padding: 10px;
+}
